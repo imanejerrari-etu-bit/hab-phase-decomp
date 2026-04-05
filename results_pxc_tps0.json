@@ -1,0 +1,57 @@
+[
+  {
+    "trial": 1,
+    "tps_target": 0,
+    "tps_actual": 0,
+    "t1": 1.181,
+    "t3": 0.812,
+    "rto": 1.994,
+    "rpo": 0,
+    "primary_before": "pxc-cluster-p-pxc-0",
+    "primary_after": "pxc-cluster-p-pxc-0"
+  },
+  {
+    "trial": 2,
+    "tps_target": 0,
+    "tps_actual": 0,
+    "t1": 2.256,
+    "t3": 1.369,
+    "rto": 3.625,
+    "rpo": 0,
+    "primary_before": "pxc-cluster-p-pxc-0",
+    "primary_after": "pxc-cluster-p-pxc-0"
+  },
+  {
+    "trial": 3,
+    "tps_target": 0,
+    "tps_actual": 0,
+    "t1": 64.967,
+    "t3": 1.531,
+    "rto": 66.498,
+    "rpo": 0,
+    "primary_before": "pxc-cluster-p-pxc-0",
+    "primary_after": "pxc-cluster-p-pxc-1"
+  },
+  {
+    "trial": 4,
+    "tps_target": 0,
+    "tps_actual": 0,
+    "t1": 6.031,
+    "t3": 2.676,
+    "rto": 8.707,
+    "rpo": 0,
+    "primary_before": "pxc-cluster-p-pxc-0",
+    "primary_after": "pxc-cluster-p-pxc-1"
+  },
+  {
+    "trial": 5,
+    "tps_target": 0,
+    "tps_actual": 0,
+    "t1": 56.66,
+    "t3": 2.43,
+    "rto": 59.09,
+    "rpo": 0,
+    "primary_before": "pxc-cluster-p-pxc-0",
+    "primary_after": "pxc-cluster-p-pxc-1"
+  }
+]

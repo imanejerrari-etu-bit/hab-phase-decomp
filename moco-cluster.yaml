@@ -1,0 +1,42 @@
+apiVersion: moco.cybozu.com/v1beta2
+kind: MySQLCluster
+metadata:
+  name: mysql-cluster-fresh
+  namespace: mysql-operator
+spec:
+  replicas: 3
+  mysqlConfigMapName: moco-mysql-config
+  podTemplate:
+    spec:
+      initContainers:
+      - name: fix-mycnf
+        image: busybox:1.36
+        command:
+        - sh
+        - -c
+        - |
+          if [ -f /etc/mysql/my.cnf ]; then
+            sed -i '/^my\.cnf = \[mysqld\]/d' /etc/mysql/my.cnf
+            echo "my.cnf fixed"
+          fi
+        volumeMounts:
+        - name: mysql-conf
+          mountPath: /etc/mysql
+      containers:
+      - name: mysqld
+        image: ghcr.io/cybozu-go/moco/mysql:8.0.36
+        resources:
+          limits:
+            cpu: 500m
+            memory: 1Gi
+          requests:
+            cpu: 250m
+            memory: 512Mi
+  volumeClaimTemplates:
+  - metadata:
+      name: mysql-data
+    spec:
+      accessModes: [ReadWriteOnce]
+      resources:
+        requests:
+          storage: 2Gi
