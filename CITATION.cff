@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this data or code, please cite the associated paper."
+title: "hab-phase-decomp: data and scripts for Load-Dependent Failover Bottlenecks in Kubernetes-Deployed Databases"
+authors:
+  - family-names: Jerrari
+    given-names: Imane
+    affiliation: "Laboratory of Information Systems (LIS), Hassan II University of Casablanca"
+  - family-names: Assayad
+    given-names: Ismail
+    affiliation: "LIS and ENSEM, Hassan II University of Casablanca"
+license: Apache-2.0
+repository-code: "https://github.com/imanejerrari-etu-bit/hab-phase-decomp"

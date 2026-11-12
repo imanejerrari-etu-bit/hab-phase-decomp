@@ -1,0 +1,29 @@
+file,system,campaign,generator,writer_threads,target_tps,n_trials,used_in_paper,notes
+data/pxc/v1_per_connection/results_pxc_tps0_clean.json,PXC/Galera,v1,per-connection,0,0,7,yes,threads derived from target by measure_pxc.py
+data/pxc/v1_per_connection/results_pxc_tps100_clean.json,PXC/Galera,v1,per-connection,4,100,7,yes,threads derived from target by measure_pxc.py
+data/pxc/v1_per_connection/results_pxc_tps500_clean.json,PXC/Galera,v1,per-connection,16,500,7,yes,threads derived from target by measure_pxc.py
+data/pxc/v1_per_connection/results_pxc_tps1000_clean.json,PXC/Galera,v1,per-connection,32,1000,7,yes,threads derived from target by measure_pxc.py
+data/pxc/v3_session1/v3_tps0.json,PXC/Galera,v3 (session 1),connection pool,0,0,7,yes,
+data/pxc/v3_session1/v3_tps100.json,PXC/Galera,v3 (session 1),connection pool,16,100,7,yes,
+data/pxc/v3_session1/v3_tps500.json,PXC/Galera,v3 (session 1),connection pool,32,500,7,yes,
+data/pxc/v3_session1/v3_tps1000.json,PXC/Galera,v3 (session 1),connection pool,64,1000,7,yes,
+data/pxc/extra_session2/v3_tps0_extra.json,PXC/Galera,extra (session 2),connection pool,0,0,12,yes,
+data/pxc/extra_session2/v3_tps100_extra.json,PXC/Galera,extra (session 2),connection pool,16,100,13,yes,
+data/cockroachdb/crdb_tps0.json,CockroachDB,crdb,psycopg2 pool,0,0,15,yes,
+data/cockroachdb/crdb_tps100.json,CockroachDB,crdb,psycopg2 pool,8,100,15,yes,
+data/cockroachdb/crdb_tps500.json,CockroachDB,crdb,psycopg2 pool,16,500,14,yes,
+data/cockroachdb/crdb_tps1000.json,CockroachDB,crdb,psycopg2 pool,16,1000,15,yes,
+data/not_used_in_paper/cockroachdb_backups/crdb_tps0_backup.json,,,,,,15,no,earlier/preliminary or backup file
+data/not_used_in_paper/cockroachdb_backups/crdb_tps1000_backup.json,,,,,,15,no,earlier/preliminary or backup file
+data/not_used_in_paper/cockroachdb_backups/crdb_tps100_backup.json,,,,,,15,no,earlier/preliminary or backup file
+data/not_used_in_paper/cockroachdb_backups/crdb_tps500_backup.json,,,,,,12,no,earlier/preliminary or backup file
+data/not_used_in_paper/earlier_analysis/crdb_analysis_results.json,,,,,,,no,earlier/preliminary or backup file
+data/not_used_in_paper/pxc_campaign_v2/v2_tps0.json,,,,,,7,no,earlier/preliminary or backup file
+data/not_used_in_paper/pxc_campaign_v2/v2_tps43.json,,,,,,7,no,earlier/preliminary or backup file
+data/not_used_in_paper/pxc_campaign_v2/v2_tps60.json,,,,,,7,no,earlier/preliminary or backup file
+data/not_used_in_paper/pxc_campaign_v2/v2_tps69.json,,,,,,7,no,earlier/preliminary or backup file
+data/not_used_in_paper/pxc_pilot_runs/results_pxc_tps0.json,,,,,,5,no,earlier/preliminary or backup file
+data/not_used_in_paper/pxc_pilot_runs/results_pxc_tps100.json,,,,,,5,no,earlier/preliminary or backup file
+data/not_used_in_paper/pxc_pilot_runs/results_pxc_tps1000.json,,,,,,5,no,earlier/preliminary or backup file
+data/not_used_in_paper/pxc_pilot_runs/results_pxc_tps500.json,,,,,,5,no,earlier/preliminary or backup file
+data/not_used_in_paper/pxc_pilot_runs/results_v2_tps0.json,,,,,,2,no,earlier/preliminary or backup file
